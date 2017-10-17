@@ -39,6 +39,8 @@ complex [2] = null;
 complex [3] = info;
 console.log (complex [2]);
 
+// тут все ок но советую писать complex[0] и тд потому что когда ты пишешь раздельно не совсем понятно
+
 //task 7
 var complexObj = {};
 complexObj.name = "Natali";
