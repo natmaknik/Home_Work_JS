@@ -1,6 +1,18 @@
 // Task 1
 
+function getPrimeNumbers(x,y) {
 
+    for (x; x <= y; x++) {
+        for (var j=2; j <= x; j++){
+            if(x > j && x % j ===0){
+                break;
+            } else if(x===j){
+                console.log(x);
+            }
+        }
+    }
+}
+getPrimeNumbers(2,15);
 
 
 // Task 2
